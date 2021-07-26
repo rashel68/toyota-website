@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+.menu-area{
+    position: static;
+    
+}
+.mega-area{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #F5F5F5;
+}
+
+.nav-item:hover button{
+    color: red;
+}
+.product-item:hover h6{
+    color: red;
+}

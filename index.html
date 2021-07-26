@@ -1,116 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toyota</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toyota</title>
 
-    <!-- bootstrap css cdn link  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- bootstrap css cdn link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- main css link  -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header class="header-part">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-            <div class="container">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+  <header class="header-part">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link border-end py-0" aria-current="page" href="#"><small>Search</small></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-end py-0" href="#"><small>FAQ</small></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-end py-0" href="#"><small>Certified Used Vehicles</small></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-end py-0" href="#"><small>Owners</small></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-end py-0" href="#"><small>Expanol</small></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-0" href="#"><small>Set Location</small></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 border-bottom">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+            <!-- select vehicles  -->
+            <li class="nav-item dropdown menu-area">
+              <button class="btn ms-4 py-3 shadow-none text-dark nav-link dropdown-toggle" id="mega1" data-bs-toggle="dropdown" aria-expanded="false">
+                Select Vehicles
               </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link border-end py-0" aria-current="page" href="#"><small>Search</small></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link border-end py-0" href="#"><small>FAQ</small></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link border-end py-0" href="#"><small>Certified Used Vehicles</small></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link border-end py-0" href="#"><small>Owners</small></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link border-end py-0" href="#"><small>Expanol</small></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link py-0" href="#"><small>Set Location</small></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+              <ul class="dropdown-menu container-fluid mega-area py-4 px-5 border-0" aria-labelledby="mega1">
+                <div class="container px-5">
+                  <div class="row g-3">
+                    <div class="col-lg-2">
+                      <div class="product-item">
+                        <figure>
+                          <img class="img-fluid" src="images/01.png" alt="">
+                          <figcaption class="text-center text-muted"><small>$34,425 as shown</small></figcaption>
+                        </figure>
+                        <h6>2022 Prius Prime</h6>
+                        <span>Starting $34,425</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
 
-          <!-- main navigation -->
-          <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 border-bottom">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                  <img src="images/logo.svg" alt="">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <!-- Shopping tools  -->
+            <li class="nav-item dropdown menu-area">
+              <button class="btn ms-4 py-3 shadow-none text-dark nav-link dropdown-toggle" id="mega2" data-bs-toggle="dropdown" aria-expanded="false">
+                Shopping Tools
               </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active py-3" aria-current="page" href="#"></a>
-                  </li>
-                  <li class="nav-item">
-                    <button class="btn ms-4 py-3">Select Vehicles</button>
-                  </li>
-                  <li class="nav-item">
-                    <button class="btn ms-4 py-3">Shopping Tools</button>
-                  </li>
-                  <li class="nav-item">
-                    <button class="btn ms-4 py-3">Find A Dealer</button>
-                  </li>
-                  <li class="nav-item">
-                    <button class="btn ms-4 py-3">Buils & Price</button>
-                  </li>
-                  <li class="nav-item">
-                    <button class="btn btn-danger rounded-0 ms-4 py-3">Local Specials</button>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
+              <ul class="dropdown-menu container-fluid mega-area py-3 px-5 border-0" aria-labelledby="mega2">
+               <div class="container px-4">
+                 <h2>hey</h2>
+               </div> 
+              </ul>
+            </li>
 
-<!-- slider-part  -->
-    <section class="slider-part mb-4">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="images/b1.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="images/b2.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="images/b3.png" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </section>
-    
+            <li class="nav-item">
+              <button class="btn ms-4 py-3">Find A Dealer</button>
+            </li>
+            <li class="nav-item">
+              <button class="btn ms-4 py-3">Buils & Price</button>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-danger rounded-0 ms-4 py-3">Local Specials</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- slider-part  -->
+  <section class="slider-part mb-4">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="images/b1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/b2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/b3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
 
 
 
 
-<!-- bootstrap js link  -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- bootstrap js link  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
